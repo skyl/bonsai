@@ -21,10 +21,12 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: _skyl
 github_username:  skyl
+repository: skyl/bonsai
 
 # Build settings
 # markdown: kramdown
 remote_theme: carlosperate/jekyll-theme-rtd
+# remote_theme: rundocs/jekyll-rtd-theme
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
