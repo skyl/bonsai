@@ -18,7 +18,10 @@ email: skylar.saveland@gmail.com
 description: >-
   One Bonsai is a philosophy for software productivity
 baseurl: "bonsai"
-url: "https://skyl.github.io"
+# Use for local testing remote theme assets don't seem to work with the
+# same config for remote and local
+# baseurl: ""
+# url: "https://skyl.github.io"
 twitter_username: _skyl
 github_username:  skyl
 repository: skyl/bonsai
@@ -26,6 +29,7 @@ repository: skyl/bonsai
 # Build settings
 # markdown: kramdown
 remote_theme: skyl/jekyll-theme-rtd
+# remote_theme: carlosperate/jekyll-theme-rtd
 # remote_theme: sohn3363/sohn3363.github.io
 # remote_theme: rundocs/jekyll-rtd-theme
 
