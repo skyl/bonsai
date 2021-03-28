@@ -26,6 +26,7 @@ repository: skyl/bonsai
 # Build settings
 # markdown: kramdown
 remote_theme: carlosperate/jekyll-theme-rtd
+# remote_theme: sohn3363/sohn3363.github.io
 # remote_theme: rundocs/jekyll-rtd-theme
 
 # Exclude from processing.

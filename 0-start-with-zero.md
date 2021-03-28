@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Start with Zero
-# permalink: /start-with-zero/
 nav_order: 1
 ---
 
