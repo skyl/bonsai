@@ -18,7 +18,7 @@ email: skylar.saveland@gmail.com
 description: >-
   One Bonsai is a philosophy for software productivity
 baseurl: "bonsai"
-url: "https://skyl.github.io/"
+url: "https://skyl.github.io"
 twitter_username: _skyl
 github_username:  skyl
 repository: skyl/bonsai
