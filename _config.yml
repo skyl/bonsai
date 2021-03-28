@@ -17,15 +17,15 @@ title: One Bonsai
 email: skylar.saveland@gmail.com
 description: >-
   One Bonsai is a philosophy for software productivity
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/bonsai"
+url: "https://skyl.github.io/"
 twitter_username: _skyl
 github_username:  skyl
 repository: skyl/bonsai
 
 # Build settings
 # markdown: kramdown
-remote_theme: carlosperate/jekyll-theme-rtd
+remote_theme: skyl/jekyll-theme-rtd
 # remote_theme: sohn3363/sohn3363.github.io
 # remote_theme: rundocs/jekyll-rtd-theme
 
