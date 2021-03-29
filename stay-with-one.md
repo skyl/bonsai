@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Stay with One
-nav_order: 1
+nav_order: 2
 ---
 
 # Stay with One
