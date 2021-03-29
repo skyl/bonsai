@@ -17,6 +17,7 @@ Still, build less. Reduce the scope. Don't build that feature.
 Say no. Don't create that new tool. Don't introduce that new dependency.
 Don't add another step in the process.
 Don't create another repository.
+
 If it isn't absolutely necessary, don't to it.
 
 Zero is the best number.

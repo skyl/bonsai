@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 # layout: home
-nav_order: 1
+nav_order: 2
 ---
 
 # The Software is the Product
@@ -14,7 +14,7 @@ or project management web-app will result in an improvement to
 _your_ software product. For your software to improve and grow, you must make
 changes to your software. Processes should only be implemented and continued
 which facilitate changing your software.
-If a process does not contribute to making your software better,
+If a process does not help your team make the software better,
 eliminate the process.
 
 ## All Processes Must Facilitate Change
@@ -37,7 +37,7 @@ Perhaps you have a ton of contributors
 with varying levels of maturity. In this case you will probably need to
 implement more checks and tests before allowing contributors to commit their
 changes to your software. Ensuring that your changes land
-well in production is the heart of your process. If any one-line change
+well in production is the heart of your process. If a small change
 to your software requires a lot of manual steps to test and deploy, your
 software will stagnate. Optimize for the one-line change. How fast can you
 ensure that this change doesn't cause a regression?
