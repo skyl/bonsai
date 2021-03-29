@@ -18,10 +18,10 @@ these things may only take 30 minutes, sometimes over a week.
 ## Stay Close to the Trunk Version
 
 An engineer should be able to sketch a working prototype and try it without
-friction and without affecting the production.
+friction and without affecting production.
 One should be able to easily compare
 the prototype version with the current production version.
-Your development version should be constantly integrated
+The development version should be constantly integrated
 with the trunk version as the developer works. In this way merge conflicts
 are avoided. Reconciling a long-running or stale branch can be painful
 and should be avoided.
