@@ -11,5 +11,5 @@ nav_order: 0
 One Bonsai is a philosophy for maximizing software development productivity.
 One Bonsai is a collection of principles and practices that will help you
 maximize your team's productivity to create the best possible software you
-can as quickly as possible while maintain joy, passion and inspiration.
+can as quickly as possible while maintaining joy, passion and inspiration.
 
