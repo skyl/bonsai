@@ -19,7 +19,8 @@ What is the canonical data that supports your applications in production?
 Reduce the cognitive overhead of constructing the system.
 The entire state of your system should be able to be constructed with a
 single
-version identifier and a few variables. There is one version of the code
+version identifier and a maybe few variables.
+There is one version of the code
 and there is one version of the data. The is one way to build and integrate
 the software. There is one way to deploy the software,
 preferably with a single command.
@@ -49,3 +50,17 @@ for logging, maybe you need an abstract interface that can handle new options
 as they arise. Maintaining multiple ways to do things might mean that you need
 _N_ ways. Instead of having 3 identical functions that each have an option
 hardcoded, have one function that can take multiple values for the option.
+
+## Don't be Rigid
+
+You're going to "Agile", right? Don't be rigid. Keep it simple. These aren't
+rules. You have one person who is fantastic with Ruby and another who is
+great with TypeScript - you will probably write your frontend in TypeScript
+and you backend in Ruby. Another person comes along who loves Golang or Java,
+maybe you will add a toolchain for them to build workers in their favorite
+language. On paper, in theory, and in this book, you should try choose
+a single language so that you can streamline your development process with
+a single toolchain. But, your software is not built on paper or in theory,
+your software is built by delivering change to your version control system.
+So, be flexible and adapt to new information as it emerges.
+Use the best tool for the job given your context.
