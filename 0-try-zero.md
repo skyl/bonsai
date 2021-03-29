@@ -2,6 +2,7 @@
 layout: page
 title: Try Zero
 nav_order: 1
+# permalink: /try-zero/
 ---
 
 # Try Zero

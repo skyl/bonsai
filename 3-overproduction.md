@@ -16,3 +16,5 @@ behaves as expected. Produce enough documentation to make your users happy.
 If you produce backlog that no one will ever look at,
 you have produced nothing.
 Some overproduction can cause maintenance burden over a long period of time.
+A feature that seems easy at the time can cause a long-lasting drag
+on the team to support and maintain.

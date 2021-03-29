@@ -18,5 +18,34 @@ What defines the software that your developers are working on?
 What is the canonical data that supports your applications in production?
 Reduce the cognitive overhead of constructing the system.
 The entire state of your system should be able to be constructed with a
+single
 version identifier and a few variables. There is one version of the code
-and there is one version of the data.
+and there is one version of the data. The is one way to build and integrate
+the software. There is one way to deploy the software,
+preferably with a single command.
+
+## Rarely Two, Working Back to One
+
+Sometimes you will need 2. You started deploying to a VM and now you want
+to use a whizzbang container environment. Maybe you can't cut over everything
+to the new environment all at once. So, there is an interim period where
+you have 2 ways of doing something. This sort of bifurcation is okay and
+perhaps inevitable for a large project that spans a long time. You started
+in JavaScript and now the benefits of TypeScript are clear and everyone
+wants to write code in TypeScript. A new framework or tool emerges that
+simply must be utilized. A legacy data model is simply not good enough and
+must be rewritten; but, the old data model will still be used for some time.
+Bifurcation happens. Try to get back to One. Have a plan to stay united.
+Get the whole codebase to the better way.
+
+## Next comes _N_
+
+Try 0, stay with 1, next comes _N_. Sometimes you will need to go beyond
+1 or even 2. At this point you should consider _N_ as the target. Instead
+of hardcoding 3 clusters that you can deploy to, consider parameterizing so
+that you can deploy to any arbitrary number of clusters. If you need 3
+languages, you might as well prepare for _N_ languages. If you have 3 options
+for logging, maybe you need an abstract interface that can handle new options
+as they arise. Maintaining multiple ways to do things might mean that you need
+_N_ ways. Instead of having 3 identical functions that each have an option
+hardcoded, have one function that can take multiple values for the option.
