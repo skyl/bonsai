@@ -8,11 +8,12 @@ nav_order: 2
 
 # The Software is the Product
 
-Your software is your product. No amount of clicking around in some wiki
-software
-or project management web-app will result in an improvement to
-_your_ software product. For your software to improve and grow, you must make
-changes to your software. Processes should only be implemented and continued
+Your software is your product.
+No amount of uploading specs or spreadsheets to the corporate file share or
+clicking around in some project management web-app
+will directly result in an improvement to _your_ software product.
+For your software to improve and grow, change must be delivered.
+Processes should only be implemented and continued
 which facilitate changing your software.
 If a process does not help your team make the software better,
 eliminate the process.

@@ -36,6 +36,8 @@ in JavaScript and now the benefits of TypeScript are clear and everyone
 wants to write code in TypeScript. A new framework or tool emerges that
 simply must be utilized. A legacy data model is simply not good enough and
 must be rewritten; but, the old data model will still be used for some time.
+Part of the codebase was written against a different version of a core
+dependency so you have two toolchains to support the two versions.
 Bifurcation happens. Try to get back to One. Have a plan to stay united.
 Get the whole codebase to the better way.
 
@@ -44,12 +46,19 @@ Get the whole codebase to the better way.
 Try 0, stay with 1, next comes _N_. Sometimes you will need to go beyond
 1 or even 2. At this point you should consider _N_ as the target. Instead
 of hardcoding 3 clusters that you can deploy to, consider parameterizing so
-that you can deploy to any arbitrary number of clusters. If you need 3
-languages, you might as well prepare for _N_ languages. If you have 3 options
+that you can deploy to any arbitrary number of clusters.
+If different modules in your codebase need to use a different version,
+maybe you have to allow
+every module to pin its own version of that dependency.
+If you need 3
+languages, maybe you might as well prepare for _N_ languages.
+If you have 3 options
 for logging, maybe you need an abstract interface that can handle new options
 as they arise. Maintaining multiple ways to do things might mean that you need
 _N_ ways. Instead of having 3 identical functions that each have an option
 hardcoded, have one function that can take multiple values for the option.
+
+Staying with _one_ can allow you to abstract to _N_.
 
 ## Don't be Rigid
 
@@ -58,7 +67,7 @@ rules. You have one person who is fantastic with Ruby and another who is
 great with TypeScript - you will probably write your frontend in TypeScript
 and you backend in Ruby. Another person comes along who loves Golang or Java,
 maybe you will add a toolchain for them to build workers in their favorite
-language. On paper, in theory, and in this book, you should try choose
+language. On paper, in theory, and in this book, you could try choose
 a single language so that you can streamline your development process with
 a single toolchain. But, your software is not built on paper or in theory,
 your software is built by delivering change to your version control system.

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Avoid Context Switching
-nav_order: 12
+nav_order: 8
 ---
 
 # Avoid Context Switching
@@ -22,7 +22,7 @@ before switching to a different task.
 
 One process that many people developing software utilize to limit context
 switching is a
-[Kanban board with Work In Progress(WIP) limits](https://www.youtube.com/watch?v=CD0y-aU1sXo).
+[Kanban board with Work In Progress (WIP) limits](https://www.youtube.com/watch?v=CD0y-aU1sXo).
 In this model, each engineer should ideally have exactly 1 item in progress
 at a given time and they see that to completion before picking up the next
 most important task.

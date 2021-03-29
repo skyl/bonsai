@@ -7,7 +7,8 @@ nav_order: 1
 
 # Try Zero
 
-Software can be expensive to produce and costly to maintain. The first step
+Software can be expensive to produce and even more costly to maintain.
+The first step
 to productivity in software development is to decide what not to build.
 Turn back now. Don't build any software that you don't need.
 Do not build software that you are not passionate about, if at all possible.

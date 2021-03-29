@@ -10,8 +10,8 @@ nav_order: 0
 
 One Bonsai is a philosophy for maximizing software development productivity.
 One Bonsai is a collection of principles and practices that will help you
-maximize your team's productivity.
-Create the best software, as quickly as possible,
+maximize your team's potential to produce effective software.
+You can help create the best software, as quickly as possible,
 while maintaining joy, passion and inspiration using Bonsai.
 
 ## Influences and Prior Art
@@ -25,11 +25,10 @@ methodology is informed by all of the agile methodologies that came before it
 and
 can be adapted to any existing methodology that you want to use: Scrum, Kanban,
 Lean, eXtreme Programming, or any other. Feel free to study all of these
-methods and spend 15 years practicing them and understanding their strengths
-and weaknesses in different contexts. Or, almost as good, read this book
-and the synthesis of principles that it represents and receive
-a concise view of what makes a software team "agile" in the original sense
-of the word.
+methods and spend decades practicing them and understanding their strengths
+and weaknesses in different contexts. Or, almost as good, read this book,
+and the synthesis of principles that it represents, and receive
+a concise view of what makes a software team agile.
 
 ## The Goal of All Agile Software Process
 

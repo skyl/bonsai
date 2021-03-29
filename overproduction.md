@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Eliminate Overproduction
-nav_order: 4
+nav_order: 7
 ---
 
 # Eliminate Overproduction
@@ -15,7 +15,7 @@ behaves as expected. Produce enough documentation to make your users happy.
 
 If you produce backlog that no one will ever look at,
 you have produced nothing. In fact, when you revisit this stale,
-never-delivered backlog months later you may waste more time trying to
+never-delivered backlog months later, you may waste more time trying to
 freshen it up. Overproduction can compound and increase your
 team's burden over a long period of time.
 A feature that seems easy at the time can cause a long-lasting drag
