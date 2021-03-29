@@ -21,8 +21,8 @@ baseurl: "bonsai"
 # Use for local testing remote theme assets don't seem to work with the
 # same config for remote and local
 # baseurl: ""
-# url: "https://skyl.github.io"
-url: https://github.com/skyl/bonsai
+url: "https://skyl.github.io"
+# url: https://github.com/skyl/bonsai
 # repo_url: https://github.com/skyl/bonsai
 twitter_username: _skyl
 github_username:  skyl
