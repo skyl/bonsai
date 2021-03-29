@@ -20,8 +20,8 @@ may be good to help teams communicate and to come to common understanding
 about the overall goals for the software. But, if they don't directly evolve
 into the real product, their accumulation is not a virtue in itself.
 
-If you stay close to the software, your documents, verbiage, images, comments,
-plans have the potential to evolve directly into the real software or
+If you stay close to the software, your documents, verbiage, images, comments
+and plans have the potential to evolve directly into the real software or
 at least provide context that can be linked directly to the code that it
 describes. In this way, everything can get maintained and updated together
 and things don't become lost, stale or forgotten.

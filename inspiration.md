@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Inspiration is the Key
-nav_order: 9
+nav_order: 2.5
 ---
 
 # Inspiration in the Key
