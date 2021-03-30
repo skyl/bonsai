@@ -47,9 +47,9 @@ search_exclude: true
         if (results.length) {
           var appendString = '';
           for (var i = 0; i < results.length; i++) {
-            var item = store[results[i].ref].trim();
+            var item = store[results[i].ref];
             // TODO: how to parameterize properly?
-            appendString += '<li><a href="/bonsai' + item.url + '"><h3>' + item.title + '</h3></a>';
+            appendString += '<li><a href="/bonsai' + item.url.trim() + '"><h3>' + item.title + '</h3></a>';
             appendString += '<p>' + item.content.substring(0, 150) + '...</p></li>';
           }
           searchResults.innerHTML = appendString;
