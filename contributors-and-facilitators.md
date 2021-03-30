@@ -4,7 +4,7 @@ nav_order: 3.5
 
 # Contributors and Facilitators
 
-Your software is your product; but, it's likely that not everyone
+Your software is your product; but, it's likely that not everyone on
 your team will be writing code.
 Not all tasks can be completed by committing a change to your version
 control.
@@ -20,7 +20,7 @@ Many people will do both types of activities.
 ## The Purpose of Facilitating
 
 There are only two ways to help build your software product:
-contributing and facilitating. The focus of facilitation it to:
+contributing and facilitating. The focus of facilitation is to:
 
 - Collect the voice of the customer, understand the product vision
   and produce the perfect items for the engineers to start
