@@ -15,20 +15,22 @@ Don't create multiple silos. Don't have different workflows for developers.
 ## One Source of Truth
 
 What defines the software that your developers are working on?
-What is the canonical data that supports your applications in production?
+What are the canonical data that support your applications in production?
+What data are required to spin up a development environment?
 Reduce the cognitive overhead of constructing the system.
 The entire state of your system should be able to be constructed with a
-single
-version identifier and a maybe few variables.
+single version identifier and a maybe few variables.
 There is one version of the code
-and there is one version of the data. The is one way to build and integrate
+and there is one version of the data.
+There is one way to build and integrate
 the software. There is one way to deploy the software,
 preferably with a single command.
 
 ## Rarely Two, Working Back to One
 
-Sometimes you will need 2. You started deploying to a VM and now you want
-to use a whizzbang container environment. Maybe you can't cut over everything
+Sometimes you will need 2. You started deploying to a
+virtual machine and now you want to use a whizzbang container environment.
+Maybe you can't cut over everything
 to the new environment all at once. So, there is an interim period where
 you have 2 ways of doing something. This sort of bifurcation is okay and
 perhaps inevitable for a large project that spans a long time. You started
@@ -62,8 +64,9 @@ Staying with _one_ can allow you to abstract to _N_.
 
 ## Don't be Rigid
 
-You're going to "Agile", right? Don't be rigid. Keep it simple. These aren't
-rules. You have one person who is fantastic with Ruby and another who is
+You're going to be "Agile", right?
+Don't be rigid. Keep it simple. These aren't rules.
+You have one person who is fantastic with Ruby and another who is
 great with TypeScript - you will probably write your frontend in TypeScript
 and you backend in Ruby. Another person comes along who loves Golang or Java,
 maybe you will add a toolchain for them to build workers in their favorite

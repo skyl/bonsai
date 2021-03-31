@@ -20,9 +20,9 @@ while maintaining joy, passion and inspiration using Bonsai.
 
 One Bonsai was developed through many years of practical experience with
 Agile Software methodologies in sole proprietorships, small startups,
-the largest companies in the world and everything in between. The Bonsai
-methodology is informed by all of the agile methodologies that came before it
-and
+some of the largest companies in the world and everything in between.
+The Bonsai methodology is informed by all of the agile methodologies
+that came before and
 can be adapted to any existing methodology that you want to use: Scrum, Kanban,
 Lean, eXtreme Programming, or any other. Feel free to study all of these
 methods and spend decades practicing them and understanding their strengths
@@ -33,8 +33,8 @@ a concise view of what makes a software team agile.
 ## The Goal of All Agile Software Process
 
 When working to develop a productive process for your team, it's important to
-take a step back and understand what you want
-to achieve by following a process. The process should seek to ensure that:
+first zoom out and understand what you want to achieve by following a process.
+The process should seek to ensure that:
 
 > Every engineer is working with motivation and passion
 > on the one most important thing that they can
